@@ -128,20 +128,22 @@ section h3{
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    position: relative;
     width: max-content;
 }
 
 .projectLogo img{
     width: 20vw;
+    padding: 20px;
 }
 
 #projects ul{
     list-style: none;
-    padding: 5vh 0;
 }
 
 #projects li{
     display: flex;
+    padding: 5vh 0;
 }
 
 .projectText{
@@ -149,36 +151,48 @@ section h3{
     max-width: 40vw;
 }
 
-.projectText h4{
+.projectText a{
+    color: #58544B;
+}
+
+#projects h4{
     font-size: 1.5em;
 }
 
-.projectText p{
+#projects p{
     font-size: 1.2em;
 }
 
-.projectLinks{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.projectLinks a{
+.projectLogo a{
+    bottom: 5px;
     color: #7F7E77;
+    position: absolute;
     text-decoration: none;
 }
 
-.projectLinks i{
+.projectLogo i{
     align-items: center;
+    background-color: #EFECE5;
     border: #7F7E77 solid 4px;
     border-radius: 50%;
+    font-size: 1rem;
     display: flex;
-    font-size: 3rem;
+    height: 15px;;
     justify-content: center;
-    padding: 10px;
+    opacity: 0.5;
+    padding: 5px;
     transition: 0.5s;
+    width: 15px;
 }
 
-.projectLinks i:hover{
-    transform: scale(1.2);
+.projectLogo a:first-of-type{
+    left: 5px;
+}
+
+.projectLogo a:last-of-type{
+    right: 5px;
+}
+
+.projectLogo i:hover{
+    opacity: 1;
 }
