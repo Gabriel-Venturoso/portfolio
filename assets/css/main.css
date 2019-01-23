@@ -81,6 +81,9 @@ main{
 
 section{
     padding: 5vh 0;
+}
+
+#aboutMe{
     display: flex;
 }
 
@@ -116,4 +119,66 @@ section h3{
 
 .simbol h4{
     font-size: 1.5rem;
+}
+
+.projectLogo{
+    align-items: center;
+    background-color: #24bbce;
+    border: #58544B solid 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+
+.projectLogo img{
+    width: 20vw;
+}
+
+#projects ul{
+    list-style: none;
+    padding: 5vh 0;
+}
+
+#projects li{
+    display: flex;
+}
+
+.projectText{
+    margin: 0 5vw;
+    max-width: 40vw;
+}
+
+.projectText h4{
+    font-size: 1.5em;
+}
+
+.projectText p{
+    font-size: 1.2em;
+}
+
+.projectLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projectLinks a{
+    color: #7F7E77;
+    text-decoration: none;
+}
+
+.projectLinks i{
+    align-items: center;
+    border: #7F7E77 solid 4px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.projectLinks i:hover{
+    transform: scale(1.2);
 }
