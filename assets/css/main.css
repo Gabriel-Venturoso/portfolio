@@ -9,6 +9,10 @@ body{
     margin: 0;
 }
 
+.upper{
+    text-transform: uppercase;
+}
+
 .first-look{
     background-image: url(../images/Chess.jpg);
     background-size: cover;
@@ -195,4 +199,29 @@ section h3{
 
 .projectLogo i:hover{
     opacity: 1;
+}
+
+#knowlegde h4{
+    font-size: 1.5em;
+}
+
+#knowlegde ul{
+    padding: 0;
+}
+
+.certification li{
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+    list-style: none;
+}
+
+.certification a{
+    color: #7F7E77;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.certification a:hover{
+    color: rgb(43, 41, 37);
 }
