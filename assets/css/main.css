@@ -2,6 +2,11 @@ html{
     scroll-behavior: smooth;
 }
 
+ul{
+    padding: 0;
+    list-style: none;
+}
+
 body{
     animation: opening 1s ease-in;
     background-color: #EFECE5;
@@ -31,8 +36,6 @@ header{
 
 .menu ul{
     display: flex;
-    list-style: none;
-    padding: 0;
 }
 
 .menu a{
@@ -141,10 +144,6 @@ section h3{
     padding: 20px;
 }
 
-#projects ul{
-    list-style: none;
-}
-
 #projects li{
     display: flex;
     padding: 5vh 0;
@@ -205,15 +204,15 @@ section h3{
     font-size: 1.5em;
 }
 
-#knowlegde ul{
-    padding: 0;
+.basicKnow{
+    font-size: 1.2em;
+    line-height: 1.3em;
 }
 
 .certification li{
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 30px;
-    list-style: none;
 }
 
 .certification a{
@@ -224,4 +223,59 @@ section h3{
 
 .certification a:hover{
     color: rgb(43, 41, 37);
+}
+
+footer{
+    background-color: #7F7E77;
+    color: #EFECE5;
+    font-size: 1.2rem;
+    padding: 50px;;
+}
+
+footer h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+footer a{
+    color: #EFECE5;
+    text-decoration: none;
+}
+
+footer ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+footer svg{
+    height: 2em;
+    margin-bottom: 1rem;
+}
+
+footer li, footer li a{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+footer i{
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+footer li:hover, footer li a:hover{
+    color: #D4CEC1;
+}
+
+footer path{
+    transition: 0.5s;
+}
+
+footer a:hover path{
+    fill: #D4CEC1;
 }
