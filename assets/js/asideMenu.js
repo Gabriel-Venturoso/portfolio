@@ -1,4 +1,4 @@
-const asideMenu = document.querySelector(".aside-menu")
+const asideMenu = document.querySelector(".aside-menu");
 
 window.addEventListener("scroll", debounce(showMenu, 10))
 
@@ -35,3 +35,4 @@ function debounce(func, wait, immediate = true) {
         if (callNow) func.apply(context, args);
     };
 };
+
