@@ -1,12 +1,11 @@
 const asideMenu = document.querySelector(".aside-menu");
 
+showMenu();
+
 window.addEventListener("scroll", debounce(showMenu, 10))
 
 function showMenu(event){
-    console.log(window.scrollY);
-    console.log(window.innerHeight);
-    console.log(window.scrollY > window.innerHeight);
-    if(window.scrollY > window.innerHeight){
+    if(window.scrollY > window.innerHeight*0.6){
         asideMenu.classList.add("active");
     }
     else{
