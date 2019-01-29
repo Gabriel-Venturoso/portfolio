@@ -30,7 +30,7 @@ header{
     align-items: center;
     background-color: #7F7E77;
     display: flex;
-    height: 5vh;
+    height: 10vh;
     justify-content: flex-end;
     left: 0;
     position: fixed;
@@ -46,13 +46,13 @@ header{
     justify-content: space-evenly;
     margin-right: 50px;
     position: relative;
-    width: 15px;
+    width: 25px;
 }
 
 .traco{
     background-color: #EFECE5;
     box-shadow: 2px 2px 5px #58544B;
-    height: 3px;
+    height: 5px;
     transition: 1s;
     width: 100%;
 }
@@ -118,22 +118,23 @@ header{
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    left: 0;
-    position: absolute;
-    top: 0;
     width: 100%;
     z-index: 1;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 5px;
+    position: relative;
+    bottom: 80px;
     text-align: center;
 }
 
 .introduction h2{
-    font-size: 1em;
+    font-size: 1.5em;
     letter-spacing: 5px;
+    position: relative;
+    bottom: 80px;
     text-align: center;
     margin: 0;
 }
