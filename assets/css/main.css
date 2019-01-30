@@ -538,8 +538,12 @@ footer a:hover path{
     .introduction{
         height: auto;
         left: 25vw;
+        position: absolute;
         top: 30vh;
         width: max-content;
+    }
+    .introduction h1, .introduction h2{
+        position: static;
     }
     .aside-menu{
         padding: 20px;
