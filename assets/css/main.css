@@ -176,15 +176,21 @@ section h3{
 }
 
 .projectLogo{
+    align-self: center;
     align-items: center;
     background-color: #24bbce;
     border: #58544B solid 2px;
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
+    height: max-content;
     justify-content: center;
     padding: 20px;
     position: relative;
+}
+
+#projects ul li:nth-child(1) .projectLogo{
+    background-color: white;
 }
 
 .projectLogo img{
