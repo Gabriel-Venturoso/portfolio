@@ -28,7 +28,7 @@ body{
 
 header{
     align-items: center;
-    background-color: #7F7E77;
+    background-color: #696969;
     display: flex;
     height: 10vh;
     justify-content: flex-end;
@@ -71,8 +71,8 @@ header{
 }
 
 .menu-mobile-tags{
-    background-color: #7F7E77;
-    height: 100vh;
+    background-color: #696969;
+    height: 100%;
     left: 0;
     position: fixed;
     top: 0;
@@ -114,7 +114,7 @@ header{
 .introduction{
     align-items: center;
     display: flex;
-    color: #7F7E77;
+    color: #696969;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
@@ -140,7 +140,7 @@ h1{
 }
 
 main{
-    color: #7F7E77;
+    color: #696969;
     padding: 5vh 10vw;
 }
 
@@ -169,7 +169,7 @@ section h3{
 }
 
 .simbol i{
-    border: solid #7F7E77 4px;
+    border: solid #696969 4px;
     border-radius: 50%;
     font-size: 2rem;
     padding: 15px;
@@ -179,7 +179,7 @@ section h3{
     align-self: center;
     align-items: center;
     background-color: #24bbce;
-    border: #58544B solid 2px;
+    border: #696969 solid 2px;
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
@@ -206,7 +206,7 @@ section h3{
 }
 
 .projectText a{
-    color: #58544B;
+    color: rgb(51, 51, 51);
 }
 
 #projects h4{
@@ -219,7 +219,7 @@ section h3{
 
 .projectLogo a{
     bottom: 5px;
-    color: #7F7E77;
+    color: #696969;
     position: absolute;
     text-decoration: none;
 }
@@ -227,7 +227,7 @@ section h3{
 .projectLogo i{
     align-items: center;
     background-color: #EFECE5;
-    border: #7F7E77 solid 4px;
+    border: #696969 solid 4px;
     border-radius: 50%;
     font-size: 1rem;
     display: flex;
@@ -296,13 +296,13 @@ section h3{
 }
 
 .certification a{
-    color: #7F7E77;
+    color: #696969;
     text-decoration: none;
     transition: 0.5s;
 }
 
 .certification a:hover{
-    color: rgb(43, 41, 37);
+    color: rgb(51, 51, 51);
 }
 
 
@@ -312,9 +312,9 @@ section h3{
 
 #see-more{
     background: none;
-    border: #7F7E77 2px solid;
+    border: #696969 2px solid;
     border-radius: 10px;
-    color: #7F7E77;
+    color: #696969;
     cursor: pointer;
     font-weight: bold;
     padding: 5px;
@@ -323,7 +323,7 @@ section h3{
 
 #see-more:hover{
     color: #EFECE5;
-    background-color: #7F7E77;
+    background-color: #696969;
 }
 
 #see-more:active{
@@ -331,7 +331,7 @@ section h3{
 }
 
 footer{
-    background-color: #7F7E77;
+    background-color: #696969;
     color: #EFECE5;
     padding: 50px;;
 }
@@ -505,7 +505,7 @@ footer a:hover path{
         top: 0;
     }
     .aside-menu{
-        background-color: #7F7E77;
+        background-color: #696969;
         border-radius: 20px 0 0 20px;
         font-size: 2em;
         padding: 15px;
@@ -529,6 +529,7 @@ footer a:hover path{
     .aside-menu a{
         color: #EFECE5;
         text-decoration: none;
+        transition: 0.5s;
     }
     
     .aside-menu a:hover{
@@ -538,7 +539,7 @@ footer a:hover path{
 
 @media (min-width: 992px) {
     .menu ul > li:hover{
-        color: #7F7E77;
+        color: #696969;
         font-size: 1.1em;
     }
     .introduction{
