@@ -1,5 +1,19 @@
 [
     {
+        "nome": "start",
+        "escola": "saga",
+        "ano": "cursando",
+        "horas": 270,
+        "link": "https://saga.art.br/cursos/start/"
+    },
+    {
+        "nome": "desenvolvimento android com kotlin",
+        "escola": "madcode",
+        "ano": 2019,
+        "horas": 32,
+        "link": "https://drive.google.com/file/d/1QX4mG5FXEJwklweGpONpwWVH4QiRGHfD/view?usp=sharing"
+    },
+    {
         "nome": "C# parte 4: entendendo exceções",
         "escola": "alura",
         "ano": 2019,
