@@ -1,0 +1,149 @@
+[
+    {
+        "nome": "C# parte 4: entendendo exceções",
+        "escola": "alura",
+        "ano": 2019,
+        "horas": 8,
+        "link": "https://cursos.alura.com.br/certificate/24df71e9-4864-4764-8d9e-9f0b9df3ad58"
+    },
+    {
+        "nome": "Acessibilidade web: introdução a designs inclusivos",
+        "escola": "alura",
+        "ano": 2019,
+        "horas": 6,
+        "link": "https://cursos.alura.com.br/certificate/35229aff-ffa0-4815-9987-44a789416af3"
+    },
+    {
+        "nome": "C# parte 3: Entendendo herança e interface",
+        "escola": "alura",
+        "ano": 2019,
+        "horas": 8,
+        "link": "https://cursos.alura.com.br/certificate/28765169-aa3f-45a0-95e4-29db7bd31422"
+    },
+    {
+        "nome": "C# parte 2: Introdução à Orientação a Objetos",
+        "escola": "alura",
+        "ano": 2019,
+        "horas": 8,
+        "link": "https://cursos.alura.com.br/certificate/99ef7771-5de6-4479-a4c9-2900bfccd0f5"
+    },
+    {
+        "nome": "Unity parte 1: Criação de um jogo de sobrevivência à zumbis para Web",
+        "escola": "alura",
+        "ano": 2019,
+        "horas": 8,
+        "link": "https://cursos.alura.com.br/certificate/f2da69a2-f053-4fc1-b0ff-24876cb15d55"
+    },
+    {
+        "nome": "C# parte 1: Primeiros passos",
+        "escola": "alura",
+        "ano": 2019,
+        "horas": 8,
+        "link": "https://cursos.alura.com.br/certificate/96aee6c2-00ce-4f73-99bc-3d7ae5e466f8"
+    },
+    {
+        "nome": "academia web development",
+        "escola": "mastertech",
+        "ano": 2018,
+        "horas": 90,
+        "link": "https://drive.google.com/file/d/1Q2n3raHSV-ucy4sLidV0kKUDildHiX0K/view?usp=sharing"
+    },
+    {
+        "nome": "jQuery: Domine a biblioteca mais popular do mercado",
+        "escola": "alura",
+        "ano": 2018,
+        "horas": 12,
+        "link": "https://cursos.alura.com.br/certificate/56c3f7fa-59fe-4b6f-b2f8-c0e34267a5a8"
+    },
+    {
+        "nome": "Expressões regulares: Capturando textos de forma mágica",
+        "escola": "alura",
+        "ano": 2018,
+        "horas": 12,
+        "link": "https://cursos.alura.com.br/certificate/36495825-a665-4e89-a8e1-746f220bdf4b"
+    },
+    {
+        "nome": "JavaScript: Programando na linguagem da web",
+        "escola": "alura",
+        "ano": 2018,
+        "horas": 20,
+        "link": "https://cursos.alura.com.br/certificate/1ef894f6-d588-4562-940a-3843d07e5e76"
+    },
+    {
+        "nome": "html5 e css3 II: Turbinando as suas páginas",
+        "escola": "alura",
+        "ano": 2018,
+        "horas": 40,
+        "link": "https://cursos.alura.com.br/certificate/b01f7d4a-39ee-4a87-848a-5f98180c2553"
+    },
+    {
+        "nome": "html5 e css3 I: Suas primeiras páginas da Web",
+        "escola": "alura",
+        "ano": 2018,
+        "horas": 32,
+        "link": "https://cursos.alura.com.br/certificate/cd53f7a6-1d74-469b-a04c-2ff6fae6aeb5"
+    },
+    {
+        "nome": "Git: Controle e compartilhe seu código",
+        "escola": "alura",
+        "ano": 2018,
+        "horas": 16,
+        "link": "https://cursos.alura.com.br/certificate/14e3341d-eabf-4c95-b691-141b8633f204"
+    },
+    {
+        "nome": "windows: introdução ao prompt",
+        "escola": "alura",
+        "ano": 2018,
+        "horas": 5,
+        "link": "https://cursos.alura.com.br/certificate/80e7bdf9-d795-4b54-b4b3-35c78df25759"
+    },
+    {
+        "nome": "app development",
+        "escola": "madcode",
+        "ano": 2018,
+        "horas": 35,
+        "link": "https://drive.google.com/file/d/0Bzqa0pXgvoTueTRON000d1RUd1g2VjZsd214OTktMTljUE9R/view?usp=sharing"
+    },
+    {
+        "nome": "introdução à ciência da computação com python parte 2",
+        "escola": "usp",
+        "ano": 2018,
+        "horas": 21,
+        "link": "https://www.coursera.org/account/accomplishments/certificate/CXNYAFWCMUR6"
+    },
+    {
+        "nome": "introdução à ciência da computação com python parte 1",
+        "escola": "usp",
+        "ano": 2018,
+        "horas": 31,
+        "link": "https://www.coursera.org/account/accomplishments/certificate/CXNYAFWCMUR6"
+    },
+    {
+        "nome": "Cifra de César: Criptografando e decriptografando textos",
+        "escola": "alura start",
+        "ano": 2017,
+        "horas": 8,
+        "link": "https://cursos.alurastart.com.br/certificate/89f59fca-e0d1-480d-b9a4-11cdec02d436"
+    },
+    {
+        "nome": "Scratch 3: Criando um robô gênio",
+        "escola": "alura start",
+        "ano": 2017,
+        "horas": 7,
+        "link": "https://cursos.alurastart.com.br/certificate/8f007850-b7cf-4a6a-88f8-84d4fd2117cf"
+    },
+    {
+        "nome": "Scratch 2: Recursos avançados de um jogo 2d",
+        "escola": "alura start",
+        "ano": 2017,
+        "horas": 8,
+        "link": "https://cursos.alurastart.com.br/certificate/c877ee9e-b857-42c0-9a6c-2ae664e81ee7"
+    },
+    {
+        "nome": "Scratch 1: Programando seu jogo 2d",
+        "escola": "alura start",
+        "ano": 2017,
+        "horas": 6,
+        "link": "https://cursos.alurastart.com.br/certificate/cbfc8fca-67aa-474d-89b4-d385fc155e02"
+    }
+]
