@@ -8,10 +8,10 @@ request.onload = function() {
     let habilidades = request.response;
 
     let ul = document.getElementById("habilidades");
-    criarLiHabilidade(ul);
+    criarLiHabilidade(ul, habilidades);
 }
 
-function criarLiHabilidade(ul){
+function criarLiHabilidade(ul, habilidades){
     for(habilidade of habilidades){
         let li = document.createElement("li");
         li.textContent = habilidade[habilidade];
