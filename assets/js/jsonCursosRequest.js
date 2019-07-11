@@ -1,14 +1,14 @@
-let requestURL = "https://raw.githubusercontent.com/Gabriel-Venturoso/portfolio/master/assets/JSON/cursos.json";
-let request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
+let requestCursosURL = "https://raw.githubusercontent.com/Gabriel-Venturoso/portfolio/master/assets/JSON/cursos.json";
+let crequest = new XMLHttpRequest();
+crequest.open('GET', requestCursosURL);
+crequest.responseType = 'json';
+crequest.send();
 
 let totalHoras = 0;
 let totalCursos = 0;
 
-request.onload = function() {
-    let cursos = request.response;
+crequest.onload = function() {
+    let cursos = crequest.response;
     ul = criarUl(cursos);
     document.getElementById("cursos").appendChild(ul);
 }

@@ -252,8 +252,16 @@ section h3{
 }
 
 .basicKnow{
-    line-height: 1.3em;
+    line-height: 1.5em;
     margin-top:30px;
+}
+
+.basicKnow li{
+    display: flex;
+}
+
+.basicKnow li i:last-of-type{
+    margin-right: 0.5em;
 }
 
 .knowlegdeContent h4{
