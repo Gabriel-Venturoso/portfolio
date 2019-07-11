@@ -7,6 +7,13 @@
         "link": "https://saga.art.br/cursos/start/"
     },
     {
+        "nome": "Introdução ao PHP: Primeiros passos com a linguagem",
+        "escola": "alura",
+        "ano": 2019,
+        "horas": 6,
+        "link": "https://cursos.alura.com.br/certificate/edd1ac6e-9be8-4c55-9eb2-6db163d6b0cb"
+    },
+    {
         "nome": "desenvolvimento android com kotlin",
         "escola": "madcode",
         "ano": 2019,
