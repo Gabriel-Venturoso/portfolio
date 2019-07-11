@@ -17,14 +17,14 @@ function criarUl(cursos){
     let ul = document.createElement("ul");
     for(curso of cursos){
         adicionarHoraEQuantidade(curso);
-        let li = criarLi(ul, curso);
+        let li = criarLiCurso(ul, curso);
         ul.appendChild(li);
     }
     atualizarHoraEQuantidade();
     return ul;
 }
 
-function criarLi(ul, curso){
+function criarLiCurso(ul, curso){
     let li = document.createElement("li");
     let a = document.createElement("a");
 
