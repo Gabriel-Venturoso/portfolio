@@ -9,19 +9,18 @@ let totalCursos = 0;
 
 crequest.onload = function() {
     let cursos = crequest.response;
-    ul = criarUl(cursos);
-    document.getElementById("cursos").appendChild(ul);
+    ul = document.getElementById("cursos");;
+    criarUl(cursos, ul);
 }
 
-function criarUl(cursos){
-    let ul = document.createElement("ul");
+function criarUl(cursos, ul){
     for(curso of cursos){
         adicionarHoraEQuantidade(curso);
         let li = criarLiCurso(ul, curso);
         ul.appendChild(li);
     }
     atualizarHoraEQuantidade();
-    return ul;
+    vejaMais();
 }
 
 function criarLiCurso(ul, curso){
